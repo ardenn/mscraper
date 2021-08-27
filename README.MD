@@ -6,7 +6,7 @@
 mscraper . -url https://makalila.dev/ -depth 1 -verbose
 ```
 - url is the starting url.
-- depth dictates how deep to follow links, default is 3.
+- depth dictates how deep to follow links, default is 1.
     - depth 0 will only fetch the starting url.
     - depth 1 will fetch the starting url, and follow all links in the starting url page.
 - verbose determines whether to print out a url and the links within it, default in false.
